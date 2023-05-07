@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+	<title>Decodificador de Texto</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+	<h1>Decodificador de Texto</h1>
+	<div>
+		<label for="texto">Insira o texto aqui:</label>
+		<textarea id="texto"></textarea>
+	</div>
+	<div>
+		<button onclick="criptografarTexto()">Criptografar</button>
+    <button onclick="descriptografarTexto()">Descriptografar</button>
+	</div>
+	<div>
+		<label for="resultado">Resultado:</label>
+    <textarea id="resultado" readonly></textarea>
+    <button id="botao-copiar" onclick="copiarResultado()">Copiar resultado</button>
+	</div>
+    <footer>
+        Desenvolvido por Rafael Souza - 2023
+    </footer>
+</body>
+</html>
